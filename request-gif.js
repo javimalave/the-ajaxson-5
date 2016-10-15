@@ -60,7 +60,7 @@ function fetchAndDisplayGif(event) {
       });
     }
     else {
-
+        $('#wrongCaptcha').text('Sorry! No Gifs for you!');
     }
     // TODO
     // give the user a "Loading..." message while they wait
